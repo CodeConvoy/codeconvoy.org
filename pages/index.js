@@ -15,7 +15,47 @@ export default function Index() {
         </div>
         <hr />
         <p>Escorting you to a future in coding.</p>
-        <p>Coming soon.</p>
+        <h1>Our Projects</h1>
+        <hr />
+        <div className={styles.project}>
+          <p><b>Codetrain</b></p>
+          <p>An educational browser game engine.</p>
+          <a
+            href="https://codetrain.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            codetrain.org
+          </a>
+          <a
+            href="https://github.com/csaye/codetrain"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+        </div>
+        <div className={styles.project}>
+          <p><b>Devcomms</b></p>
+          <p>Team communication and coordination all in one place.</p>
+          <a
+            href="https://devcomms.io"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            devcomms.io
+          </a>
+          <a
+            href="https://github.com/csaye/devcomms"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            github
+          </a>
+        </div>
+        <p><b>+ more coming soon!</b></p>
+        <h1>Contact</h1>
+        <hr />
         <div className={styles.contact}>
           <a
             href="https://github.com/codeconvoy"
