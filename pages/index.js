@@ -5,6 +5,11 @@ import Image from 'next/image';
 
 import styles from '../styles/Index.module.css';
 
+const outLink = {
+  target: "_blank",
+  rel: "noopener noreferrer"
+};
+
 export default function Index() {
   return (
     <div className={styles.container}>
@@ -20,55 +25,23 @@ export default function Index() {
         <div className={styles.project}>
           <p><b>Codetrain</b></p>
           <p>An educational browser game engine.</p>
-          <a
-            href="https://codetrain.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            codetrain.org
-          </a>
-          <a
-            href="https://github.com/csaye/codetrain"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github
-          </a>
+          <a href="https://codetrain.org" {...outLink}>codetrain.org</a>
+          <a href="https://github.com/csaye/codetrain" {...outLink}>github</a>
         </div>
         <div className={styles.project}>
           <p><b>Devcomms</b></p>
           <p>Team communication and coordination all in one place.</p>
-          <a
-            href="https://devcomms.io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            devcomms.io
-          </a>
-          <a
-            href="https://github.com/csaye/devcomms"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            github
-          </a>
+          <a href="https://devcomms.io" {...outLink}>devcomms.io</a>
+          <a href="https://github.com/csaye/devcomms" {...outLink}>github</a>
         </div>
         <p><b>+ more coming soon!</b></p>
         <h1>Contact</h1>
         <hr />
         <div className={styles.contact}>
-          <a
-            href="https://github.com/codeconvoy"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://github.com/codeconvoy" {...outLink}>
             <GitHubIcon fontSize="large" />
           </a>
-          <a
-            href="https://twitter.com/codeconvoyorg"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://twitter.com/codeconvoyorg" {...outLink} >
             <TwitterIcon fontSize="large" />
           </a>
           <a href="mailto:contact@codeconvoy.org">
