@@ -30,15 +30,6 @@
   border-color: #000;
 }
 
-.project > a {
-  margin: 0 5px;
-  text-decoration: underline;
-}
-
-.project > a:hover {
-  color: #007bff;
-}
-
 .contact > a {
   margin: 0 10px;
   display: inline-block;

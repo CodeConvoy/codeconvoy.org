@@ -1,0 +1,8 @@
+.container > a {
+  margin: 0 5px;
+  text-decoration: underline;
+}
+
+.container > a:hover {
+  color: #007bff;
+}

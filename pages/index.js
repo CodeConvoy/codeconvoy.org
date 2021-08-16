@@ -1,14 +1,13 @@
+import Project from '../components/Project.js';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
 import Image from 'next/image';
 
-import styles from '../styles/Index.module.css';
+import { projects } from '../data/projects.js';
+import { outLink } from '../util/outLink.js';
 
-const outLink = {
-  target: "_blank",
-  rel: "noopener noreferrer"
-};
+import styles from '../styles/Index.module.css';
 
 export default function Index() {
   return (
@@ -22,18 +21,11 @@ export default function Index() {
         <p>Escorting you to a future in coding.</p>
         <h1>Our Projects</h1>
         <hr />
-        <div className={styles.project}>
-          <p><b>Codetrain</b></p>
-          <p>An educational browser game engine.</p>
-          <a href="https://codetrain.org" {...outLink}>codetrain.org</a>
-          <a href="https://github.com/csaye/codetrain" {...outLink}>github</a>
-        </div>
-        <div className={styles.project}>
-          <p><b>Devcomms</b></p>
-          <p>Team communication and coordination all in one place.</p>
-          <a href="https://devcomms.io" {...outLink}>devcomms.io</a>
-          <a href="https://github.com/csaye/devcomms" {...outLink}>github</a>
-        </div>
+        {
+          projects.map((project, i) =>
+            <Project {...project} key={i} />
+          )
+        }
         <p><b>+ more coming soon!</b></p>
         <h1>Contact</h1>
         <hr />
