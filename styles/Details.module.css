@@ -1,0 +1,47 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.flexfill {
+  flex-grow: 1;
+}
+
+.link {
+  margin-right: 20px;
+}
+
+.header > a:hover {
+  color: #007bff;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.footer > p {
+  margin-left: 15px;
+}
+
+.footer > a {
+  margin-right: 15px;
+}
+
+.footer > a:hover {
+  color: #007bff;
+}

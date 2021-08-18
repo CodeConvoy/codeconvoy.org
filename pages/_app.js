@@ -1,5 +1,7 @@
+import Details from '../components/Details.js';
 import Head from 'next/head';
 
+import styles from '../styles/App.module.css';
 import '../styles/globals.css';
 
 export default function App(props) {
@@ -14,7 +16,12 @@ export default function App(props) {
         <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png" />
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet" />
       </Head>
-      <Component {...pageProps} />
+      <div className={styles.container}>
+        <Details />
+        <div className={styles.center}>
+          <Component {...pageProps} />
+        </div>
+      </div>
     </>
   );
 }
