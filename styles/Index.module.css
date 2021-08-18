@@ -1,17 +1,3 @@
-.container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('/background.jpg');
-  background-position: center center;
-  background-size: cover;
-}
-
-.center {
-  text-align: center;
-}
-
 .title {
   display: flex;
   align-items: center;
@@ -26,12 +12,40 @@
   margin-left: 5px!important;
 }
 
-.center > hr {
-  border-color: #000;
+.button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #007bff;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.button:after {
+  position: absolute;
+  transition: 0.3s;
+  content: '';
+  width: 0;
+  bottom: 0;
+  height: 100%;
+  background: #fff;
+  right: 0;
+  left: auto;
+  z-index: -1;
+}
+
+.button:hover {
+  color: #007bff;
+}
+
+.button:hover:after {
+  width: 100%;
+  left: 0;
 }
 
 .contact > a {
-  margin: 0 10px;
+  margin: 10px;
   display: inline-block;
 }
 
