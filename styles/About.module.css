@@ -1,0 +1,19 @@
+.hr {
+  width: 200px;
+}
+
+.content {
+  width: 400px;
+}
+
+.content > p {
+  line-height: 28px;
+}
+
+.content a {
+  text-decoration: underline;
+}
+
+.content a:hover {
+  color: #007bff;
+}

@@ -1,0 +1,18 @@
+.container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/background.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.center {
+  text-align: center;
+  margin: 0 40px;
+}
+
+.center > hr {
+  border-color: #000;
+}
