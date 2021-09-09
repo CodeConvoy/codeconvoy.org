@@ -12,7 +12,7 @@ export default function Index() {
     <div className={styles.container}>
       <div className={styles.title}>
         <h1>CodeConvoy</h1>
-        <Image src="/logo.png" height="48" width="48" alt="logo" />
+        <Image src="/img/logo.png" height="48" width="48" alt="logo.png" />
       </div>
       <hr />
       <p>Escorting you to a future in coding.</p>

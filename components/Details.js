@@ -14,7 +14,7 @@ export default function Details() {
       <div className={styles.header}>
         <Link href="/">
           <a className={styles.logo}>
-            <Image src="/logo.png" width="48" height="48" alt="logo" />
+            <Image src="/img/logo.png" width="48" height="48" alt="logo.png" />
           </a>
         </Link>
         <span className={styles.flexfill} />
