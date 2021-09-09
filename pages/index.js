@@ -14,14 +14,16 @@ export default function Index() {
         <h1>CodeConvoy</h1>
         <Image src="/logo.png" height="48" width="48" alt="logo" />
       </div>
-      <hr />
+      <hr className={styles.hr} />
       <p>Escorting you to a future in coding.</p>
-      <Link href="/projects">
-        <a className={styles.button}>Our Projects</a>
-      </Link>
-      <Link href="/about">
-        <a className={styles.button}>About Us</a>
-      </Link>
+      <div className={styles.links}>
+        <Link href="/projects">
+          <a className={styles.button}>Our Projects</a>
+        </Link>
+        <Link href="/about">
+          <a className={styles.button}>About Us</a>
+        </Link>
+      </div>
     </>
   );
 }

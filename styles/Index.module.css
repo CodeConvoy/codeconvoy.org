@@ -12,9 +12,17 @@
   margin-left: 5px!important;
 }
 
+.hr {
+  margin: 0 30px;
+}
+
+.links {
+  margin: 0 20px 20px 20px;
+}
+
 .button {
   padding: 10px 20px;
-  margin: 0 10px;
+  margin: 0 5px;
   border: 1px solid #007bff;
   display: inline-block;
   position: relative;
