@@ -6,15 +6,15 @@ import styles from '../styles/Projects.module.css';
 
 export default function Projects() {
   return (
-    <>
+    <div className={styles.container}>
       <h1>Projects</h1>
-      <hr className={styles.hr} />
+      <hr />
       {
         projects.map((project, i) =>
           <Project {...project} key={i} />
         )
       }
       <p><b><i>+ more coming soon!</i></b></p>
-    </>
+    </div>
   );
 }
