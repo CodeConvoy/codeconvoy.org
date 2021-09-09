@@ -18,9 +18,7 @@ export default function App(props) {
       </Head>
       <div className={styles.container}>
         <Details />
-        <div className={styles.center}>
-          <Component {...pageProps} />
-        </div>
+        <Component {...pageProps} />
       </div>
     </>
   );
