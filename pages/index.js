@@ -9,12 +9,12 @@ import styles from '../styles/Index.module.css';
 
 export default function Index() {
   return (
-    <>
+    <div className={styles.container}>
       <div className={styles.title}>
         <h1>CodeConvoy</h1>
         <Image src="/logo.png" height="48" width="48" alt="logo" />
       </div>
-      <hr className={styles.hr} />
+      <hr />
       <p>Escorting you to a future in coding.</p>
       <div className={styles.links}>
         <Link href="/projects">
@@ -24,6 +24,6 @@ export default function Index() {
           <a className={styles.button}>About Us</a>
         </Link>
       </div>
-    </>
+    </div>
   );
 }

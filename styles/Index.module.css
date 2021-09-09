@@ -1,23 +1,28 @@
+.container {
+  text-align: center;
+  margin: 0 40px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 20px;
+}
+
 .title {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 
 .title > h1 {
-  margin-bottom: 8px;
+  margin: 0;
 }
 
 .title > div {
   margin-left: 5px!important;
 }
 
-.hr {
-  margin: 0 30px;
-}
-
-.links {
-  margin: 0 20px 20px 20px;
+.container > hr {
+  margin: 0 10px;
 }
 
 .button {
