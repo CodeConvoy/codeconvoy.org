@@ -9,9 +9,9 @@ import styles from '../styles/About.module.css';
 
 export default function About() {
   return (
-    <>
+    <div className={styles.container}>
       <h1>About</h1>
-      <hr className={styles.hr} />
+      <hr />
       <div className={styles.content}>
         <p><b>CodeConvoy aims to make learning, using, and sharing code easier.</b></p>
         <CodeIcon fontSize="large" />
@@ -26,6 +26,6 @@ export default function About() {
           <a href="https://github.com/codeconvoy" {...outLink}>GitHub</a>.
         </p>
       </div>
-    </>
+    </div>
   );
 }
