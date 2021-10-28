@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: "Brainwave",
+    description: "Rich and centralized idea development.",
+    link: "brainwave.vercel.app",
+    github: "codeconvoy/brainwave",
+    image: "brainwave.png"
+  },
+  {
     title: "Codetrain",
     description: "An educational browser game engine.",
     link: "codetrain.org",
