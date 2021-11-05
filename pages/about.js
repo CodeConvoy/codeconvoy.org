@@ -13,15 +13,16 @@ export default function About() {
       <h1>About</h1>
       <hr />
       <div className={styles.content}>
-        <p><b>CodeConvoy aims to make learning, using, and sharing code easier.</b></p>
-        <CodeIcon fontSize="large" />
+        <p className={styles.motto}>
+          <i><b>CodeConvoy aims to make coding easier.</b></i>
+        </p>
         <p>We believe that coding is an invaluable life skill that should be
-        {' '}<b>accessible, open, and fun.</b> That&apos;s why we are committed to
-        making helpful and educational tools that are <b>100% free and open
-        source, forever.</b></p>
+        {' '}<b>accessible to everyone.</b> That&apos;s why we are committed to
+        making helpful and educational developer tools that are <b>100% free and
+        open source, forever.</b></p>
         <MoneyOffIcon fontSize="large" />
         <LockOpenIcon fontSize="large" />
-        <SentimentVerySatisfiedIcon fontSize="large" />
+        <CodeIcon fontSize="large" />
         <p>Want to contribute? Check out our{' '}
           <a href="https://github.com/codeconvoy" {...outLink}>GitHub</a>.
         </p>
