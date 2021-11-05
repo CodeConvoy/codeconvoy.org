@@ -28,13 +28,14 @@ export default function Details() {
           <a className={styles.link}>About</a>
         </Link>
       </div>
-      <div className={styles.footer}>
+      <div className={styles.copyright}>
         <p>
           &copy;{' '}
           <a href="https://codeconvoy.org">CodeConvoy</a>
           {' '}{new Date().getFullYear()}
         </p>
-        <span className={styles.flexfill} />
+      </div>
+      <div className={styles.links}>
         <a href="https://github.com/codeconvoy" {...outLink}>
           <GitHubIcon fontSize="large" />
         </a>
