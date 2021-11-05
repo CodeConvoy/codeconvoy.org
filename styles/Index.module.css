@@ -2,7 +2,6 @@
   text-align: center;
   margin: 0 40px;
   background: rgba(255, 255, 255, 0.3);
-  border-radius: 20px;
   padding: 20px;
 }
 
@@ -18,7 +17,7 @@
 }
 
 .title > div {
-  margin-left: 5px!important;
+  margin-left: 10px!important;
 }
 
 .container > hr {
