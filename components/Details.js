@@ -29,7 +29,11 @@ export default function Details() {
         </Link>
       </div>
       <div className={styles.footer}>
-        <p>&copy; CodeConvoy {new Date().getFullYear()}</p>
+        <p>
+          &copy;{' '}
+          <a href="https://codeconvoy.org">CodeConvoy</a>
+          {' '}{new Date().getFullYear()}
+        </p>
         <span className={styles.flexfill} />
         <a href="https://github.com/codeconvoy" {...outLink}>
           <GitHubIcon fontSize="large" />
