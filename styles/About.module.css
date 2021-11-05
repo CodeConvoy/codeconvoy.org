@@ -3,6 +3,7 @@
   margin: 0 40px;
   background: rgba(255, 255, 255, 0.3);
   padding: 0 20px 10px 20px;
+  max-width: calc(100% - 40px);
 }
 
 .container > h1 {
@@ -19,6 +20,7 @@
 
 .content {
   width: 420px;
+  max-width: 100%;
 }
 
 .content > p {
