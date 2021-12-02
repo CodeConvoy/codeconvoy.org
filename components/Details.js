@@ -24,8 +24,8 @@ export default function Details() {
         <Link href="/projects">
           <a className={styles.link}>Projects</a>
         </Link>
-        <Link href="/about">
-          <a className={styles.link}>About</a>
+        <Link href="/mission">
+          <a className={styles.link}>Mission</a>
         </Link>
       </div>
       <div className={styles.copyright}>

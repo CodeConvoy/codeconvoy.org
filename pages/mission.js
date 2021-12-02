@@ -5,21 +5,21 @@ import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfie
 
 import { outLink } from '../util/outLink.js';
 
-import styles from '../styles/About.module.css';
+import styles from '../styles/Mission.module.css';
 
-export default function About() {
+export default function Mission() {
   return (
     <div className={styles.container}>
-      <h1>About</h1>
+      <h1>Mission</h1>
       <hr />
       <div className={styles.content}>
         <p className={styles.motto}>
-          <i><b>CodeConvoy aims to make coding easier.</b></i>
+          <i><b>CodeConvoy aims to simplify development.</b></i>
         </p>
-        <p>We believe that coding is an invaluable life skill that should be
-        {' '}<b>accessible to everyone.</b> That&apos;s why we are committed to
-        making helpful and educational developer tools that are <b>100% free and
-        open source, forever.</b></p>
+        <p>We believe that <b>everyone should have the tools they need to
+        create their dream project.</b> That&apos;s why we are committed to
+        making helpful and educational developer tools that are <b>100% free
+        and open source, forever.</b></p>
         <MoneyOffIcon fontSize="large" />
         <LockOpenIcon fontSize="large" />
         <CodeIcon fontSize="large" />

@@ -20,8 +20,8 @@ export default function Index() {
         <Link href="/projects">
           <a className={styles.button}>Our Projects</a>
         </Link>
-        <Link href="/about">
-          <a className={styles.button}>About Us</a>
+        <Link href="/mission">
+          <a className={styles.button}>Our Mission</a>
         </Link>
       </div>
     </div>
