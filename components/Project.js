@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 import { outLink } from '../util/outLink.js';
 
 import styles from '../styles/Project.module.css';
@@ -10,17 +8,36 @@ export default function Project(props) {
   return (
     <div className={styles.container}>
       <h2>
-        <Image
-          src={`/img/projects/${image}`}
+        <img
+          src={`/img/logos/${image}`}
           width="32"
           height="32"
           alt={image}
         />
         <b>{title}</b>
       </h2>
-      <p>{description}</p>
-      <a href={`https://${link}`} {...outLink}>{link}</a>
-      <a href={`https://github.com/${github}`} {...outLink}>github</a>
+      <a
+        className={styles.image}
+        href={`https://${link}`}
+        {...outLink}
+      >
+        <img
+          src={`/img/projects/${image}`}
+          width="256"
+          alt={image}
+        />
+      </a>
+      <p><i>{description}</i></p>
+      <a
+        className={styles.link}
+        href={`https://${link}`}
+        {...outLink}
+      >{link}</a>
+      <a
+        className={styles.link}
+        href={`https://github.com/${github}`}
+        {...outLink}
+      >github</a>
     </div>
   );
 }
