@@ -9,12 +9,14 @@ export default function Projects() {
     <div className={styles.container}>
       <h1>Projects</h1>
       <hr />
-      {
-        projects.map((project, i) =>
-          <Project {...project} key={i} />
-        )
-      }
-      <p><b><i>+ more coming soon!</i></b></p>
+      <div className={styles.projects}>
+        {
+          projects.map((project, i) =>
+            <Project {...project} key={i} />
+          )
+        }
+      </div>
+      <p className={styles.more}>+ more coming soon!</p>
     </div>
   );
 }
