@@ -44,7 +44,7 @@
   bottom: 0;
   right: 0;
   display: flex;
-  margin: 0 4px;
+  margin: 4px 8px;
 }
 
 .links > a {

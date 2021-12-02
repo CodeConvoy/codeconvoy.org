@@ -10,14 +10,13 @@ export default function Project(props) {
   return (
     <div className={styles.container}>
       <h2>
-        <b>{title}</b>
-        {' '}
         <Image
           src={`/img/projects/${image}`}
           width="32"
           height="32"
           alt={image}
         />
+        <b>{title}</b>
       </h2>
       <p>{description}</p>
       <a href={`https://${link}`} {...outLink}>{link}</a>
