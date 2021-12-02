@@ -23,7 +23,7 @@ export default function Project(props) {
       >
         <img
           src={`/img/projects/${image}`}
-          width="256"
+          height="144"
           alt={image}
         />
       </a>

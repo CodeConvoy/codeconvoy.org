@@ -1,12 +1,13 @@
 .container {
   max-width: 400px;
+  margin: 0 10px;
 }
 
 .container > h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 8px;
+  margin: 8px 0 12px 0;
 }
 
 .container > h2 > img {
@@ -29,4 +30,13 @@
 
 .link:hover {
   color: #007bff;
+}
+
+@media (max-width: 1060px) {
+  .container > h2 {
+    margin-top: 24px;
+  }
+  .container:first-of-type > h2 {
+    margin-top: 8px;
+  }
 }
