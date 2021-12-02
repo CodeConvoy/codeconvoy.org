@@ -2,7 +2,7 @@ import Project from '../components/Project.js';
 
 import { projects } from '../data/projects.js';
 
-import styles from '../styles/Projects.module.css';
+import styles from '../styles/pages/Projects.module.css';
 
 export default function Projects() {
   return (

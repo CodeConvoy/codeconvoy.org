@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { projects } from '../data/projects.js';
 import { outLink } from '../util/outLink.js';
 
-import styles from '../styles/Index.module.css';
+import styles from '../styles/pages/Index.module.css';
 
 export default function Index() {
   return (

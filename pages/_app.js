@@ -1,7 +1,7 @@
 import Details from '../components/Details.js';
 import Head from 'next/head';
 
-import styles from '../styles/App.module.css';
+import styles from '../styles/pages/App.module.css';
 import '../styles/globals.css';
 
 // meta

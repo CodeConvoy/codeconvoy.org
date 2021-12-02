@@ -5,7 +5,7 @@ import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfie
 
 import { outLink } from '../util/outLink.js';
 
-import styles from '../styles/Mission.module.css';
+import styles from '../styles/pages/Mission.module.css';
 
 export default function Mission() {
   return (
