@@ -1,6 +1,6 @@
 import { outLink } from '../util/outLink.js';
 
-import styles from '../styles/Project.module.css';
+import styles from '../styles/components/Project.module.css';
 
 export default function Project(props) {
   const { title, description, link, github, image } = props;

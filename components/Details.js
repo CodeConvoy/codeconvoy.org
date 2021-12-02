@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
@@ -6,7 +5,7 @@ import EmailIcon from '@material-ui/icons/Email';
 
 import { outLink } from '../util/outLink.js';
 
-import styles from '../styles/Details.module.css';
+import styles from '../styles/components/Details.module.css';
 
 export default function Details() {
   return (
@@ -14,7 +13,7 @@ export default function Details() {
       <div className={styles.header}>
         <Link href="/">
           <a className={styles.logo}>
-            <Image src="/img/logo.png" width="48" height="48" alt="logo.png" />
+            <img src="/img/logo.png" width="48" height="48" alt="logo.png" />
           </a>
         </Link>
         <span className={styles.flexfill} />
