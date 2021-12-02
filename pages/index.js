@@ -3,7 +3,6 @@ import Project from '../components/Project.js';
 import Image from 'next/image';
 
 import { projects } from '../data/projects.js';
-import { outLink } from '../util/outLink.js';
 
 import styles from '../styles/pages/Index.module.css';
 

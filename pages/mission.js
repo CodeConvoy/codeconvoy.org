@@ -3,7 +3,6 @@ import MoneyOffIcon from '@material-ui/icons/MoneyOff';
 import LockOpenIcon from '@material-ui/icons/LockOpen';
 import SentimentVerySatisfiedIcon from '@material-ui/icons/SentimentVerySatisfied';
 
-import { outLink } from '../util/outLink.js';
 
 import styles from '../styles/pages/Mission.module.css';
 
@@ -24,7 +23,11 @@ export default function Mission() {
         <LockOpenIcon fontSize="large" />
         <CodeIcon fontSize="large" />
         <p>Want to contribute? Check out our{' '}
-          <a href="https://github.com/codeconvoy" {...outLink}>GitHub</a>.
+          <a
+            href="https://github.com/codeconvoy"
+            target="_blank"
+            rel="noopener noreferrer"
+          >GitHub</a>.
         </p>
       </div>
     </div>

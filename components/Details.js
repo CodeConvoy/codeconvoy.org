@@ -3,8 +3,6 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import EmailIcon from '@material-ui/icons/Email';
 
-import { outLink } from '../util/outLink.js';
-
 import styles from '../styles/components/Details.module.css';
 
 export default function Details() {
@@ -35,10 +33,18 @@ export default function Details() {
         </p>
       </div>
       <div className={styles.links}>
-        <a href="https://github.com/codeconvoy" {...outLink}>
+        <a
+          href="https://github.com/codeconvoy"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <GitHubIcon fontSize="large" />
         </a>
-        <a href="https://twitter.com/codeconvoyorg" {...outLink} >
+        <a
+          href="https://twitter.com/codeconvoyorg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <TwitterIcon fontSize="large" />
         </a>
         <a href="mailto:contact@codeconvoy.org">

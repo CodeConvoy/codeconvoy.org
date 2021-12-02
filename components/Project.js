@@ -1,5 +1,3 @@
-import { outLink } from '../util/outLink.js';
-
 import styles from '../styles/components/Project.module.css';
 
 export default function Project(props) {
@@ -19,7 +17,8 @@ export default function Project(props) {
       <a
         className={styles.image}
         href={`https://${link}`}
-        {...outLink}
+        target="_blank"
+        rel="noopener noreferrer"
       >
         <img
           src={`/img/projects/${image}`}
@@ -31,12 +30,14 @@ export default function Project(props) {
       <a
         className={styles.link}
         href={`https://${link}`}
-        {...outLink}
+        target="_blank"
+        rel="noopener noreferrer"
       >{link}</a>
       <a
         className={styles.link}
         href={`https://github.com/${github}`}
-        {...outLink}
+        target="_blank"
+        rel="noopener noreferrer"
       >github</a>
     </div>
   );

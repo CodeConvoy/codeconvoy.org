@@ -1,7 +1,6 @@
 import Project from '../components/Project.js';
 
 import { projects } from '../data/projects.js';
-import { outLink } from '../util/outLink';
 
 import styles from '../styles/pages/Projects.module.css';
 
@@ -20,10 +19,9 @@ export default function Projects() {
       <a
         className={styles.more}
         href="https://github.com/codeconvoy"
-        {...outLink}
-      >
-        + more coming soon!
-      </a>
+        target="_blank"
+        rel="noopener noreferrer"
+      >+ more coming soon!</a>
     </div>
   );
 }
