@@ -16,7 +16,7 @@ export const projects = [
   {
     title: "Brainwave",
     description: "Rich and centralized idea development.",
-    link: "brainwave.vercel.app",
+    link: "brainwave.team",
     github: "codeconvoy/brainwave",
     image: "brainwave.png"
   }
