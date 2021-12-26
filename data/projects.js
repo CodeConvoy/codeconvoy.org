@@ -8,7 +8,7 @@ export const projects = [
   },
   {
     title: "Codetrain",
-    description: "An educational browser game engine.",
+    description: "A retro game engine in the browser.",
     link: "codetrain.org",
     github: "codeconvoy/codetrain",
     image: "codetrain.png"

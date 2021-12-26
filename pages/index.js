@@ -14,7 +14,7 @@ export default function Index() {
         <Image src="/img/logo.png" height="48" width="48" alt="logo.png" />
       </div>
       <hr />
-      <p>Developer tools escorting you to a future in coding.</p>
+      <p>Open source developer tools for everyone.</p>
       <div className={styles.links}>
         <Link href="/projects">
           <a className={styles.button}>Our Projects</a>
